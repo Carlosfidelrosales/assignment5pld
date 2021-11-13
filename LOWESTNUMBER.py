@@ -1,5 +1,5 @@
 def instruction():
-    print('FOLLOW THE INSTRUCTION GIVEN BELOW.')
+    print('FOLLOW THE \033[1m\033[95mINSTRUCTIONS\033[0m\033[0m GIVEN BELOW.')
 instruction()
 
 def setout_num(num1, num2, num3):
@@ -10,10 +10,10 @@ def setout_num(num1, num2, num3):
     elif num3 < num1 and num3 < num2:
         return num3
 
-digit_1 = float(input('Please enter your FIRST NUMBER: '))
-digit_2 = float(input('Please enter your SECOND NUMBER:'))
-digit_3 = float(input('Please enter your THIRD NUMBER: '))
+digit_1 = float(input('\033[1m\033[33mPlease enter your \033[4mFIRST NUMBER\033[0m:\033[0m\033[0m '))
+digit_2 = float(input('\033[1m\033[33mPlease enter your \033[4mSECOND NUMBER\033[0m:\033[0m\033[0m '))
+digit_3 = float(input('\033[1m\033[33mPlease enter your \033[4mTHIRD NUMBER\033[0m:\033[0m\033[0m '))
 
 answer = setout_num(num1 = digit_1, num2 = digit_2, num3 = digit_3)
-print(f'The lowest number among the three you have been inputted is {answer:.2f}.')
+print(f'\033[36mThe lowest number among the three you have been inputted is\033[0m \033[4m\033[1m{answer:.2f}\033[0m\033[0m.')
 
