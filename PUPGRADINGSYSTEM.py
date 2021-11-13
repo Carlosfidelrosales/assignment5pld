@@ -11,35 +11,25 @@ def percentage_revealed():
     else:
         your_grade = round(float(put_grade))
         if your_grade >= 97 and your_grade <= 100:
-            print('Your Grade/Mark is \033[92m1.00\033[0m')
-            print('Description is \033[92mEXCELLENT\033[0m!')
+            print('Your Grade/Mark is \033[92m1.00 \nDescription is \033[92mEXCELLENT\033[0m!')
         elif your_grade >= 94 and your_grade <= 96:
-            print('Your Grade/Mark is \033[92m1.25\033[0m')
-            print('Description is \033[92mEXCELLENT\033[0m!')
+            print('Your Grade/Mark is \033[92m1.25 \nDescription is \033[92mEXCELLENT\033[0m!')
         elif your_grade >= 91 and your_grade <= 93:
-            print('Your Grade/Mark is \033[92m1.50\033[0m')
-            print('Description is \033[92mVERY GOOD\033[0m!')
+            print('Your Grade/Mark is \033[92m1.50 \nDescription is \033[92mVERY GOOD\033[0m!')
         elif your_grade >= 88 and your_grade <= 90:
-            print('Your Grade/Mark is \033[92m1.75\033[0m')
-            print('Description is \033[92mVERY GOOD\033[0m!')
+            print('Your Grade/Mark is \033[92m1.75 \nDescription is \033[92mVERY GOOD\033[0m!')
         elif your_grade >= 85 and your_grade <= 87:
-            print('Your Grade/Mark \033[92mis 2.0\033[0m')
-            print('Description is \033[92mGOOD\033[0m!')
+            print('Your Grade/Mark is \033[92m2.0 \nDescription is \033[92mGOOD\033[0m!')
         elif your_grade >= 82 and your_grade <= 84:
-            print('Your Grade/Mark is \033[92m2.25\033[0m')
-            print('Description is \033[92mGOOD\033[0m!')
+            print('Your Grade/Mark is \033[92m2.25 \nDescription is \033[92mGOOD\033[0m!')
         elif your_grade >= 79 and your_grade <= 81:
-            print('Your Grade/Mark is \033[92m2.5\033[0m')
-            print('Description is \033[92mSATISFACTORY\033[0m!')
+            print('Your Grade/Mark is \033[92m2.5 \nDescription is \033[92mSATISFACTORY\033[0m!')
         elif your_grade >= 76 and your_grade <= 78:
-            print('Your Grade/Mark is \033[92m2.75\033[0m')
-            print('Description is \033[92mSATISFACTORY\033[0m!')
+            print('Your Grade/Mark is \033[92m2.75 \n Description is \033[92mSATISFACTORY\033[0m!')
         elif your_grade == 75:
-            print('Your Grade/Mark is \033[92m3.00\033[0m')
-            print('Description is \033[92mPASSING\033[0m!')
+            print('Your Grade/Mark is \033[92m3.0 \nDescription is \033[92mPASSING\033[0m!')
         elif your_grade >=65 and your_grade <= 74: 
-            print('Your Grade/Mark is \033[92m5.00\033[0m')
-            print('Description is \033[92mFAILURE\033[0m!')
+            print('Your Grade/Mark is \033[92m5.0 \nDescription is \033[92mFAILURE\033[0m!')
         else:
             print('Please enter a grade between \033[92m65 to 100\033[0m.')
         return
